@@ -48,6 +48,7 @@ function draw() {
     }
     if(surface3.isTouching(box) && box.bounceOff(surface3)){
         box.shapeColor = "green";
+        music.play();
     }
     if(surface4.isTouching(box) && box.bounceOff(surface4)){
         box.shapeColor = "blue";
